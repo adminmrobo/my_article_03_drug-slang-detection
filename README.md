@@ -9,7 +9,7 @@
 
 SNS에서 일상 언어로 위장한 불법 마약 거래를 AI가 어떻게 잡아내는지 다루는 인터랙티브 해설 페이지입니다. 논문 「SNS 텍스트 기반 마약 의심 거래 탐지 알고리즘에 대한 연구」(안상선, 미래사회 16(1), 2025)의 통계를 기준으로, 전처리 파이프라인 → 원-핫 인코딩의 한계와 워드 임베딩 → 4대 은어 패턴 → 분류 모델 비교 → XAI(LIME·SHAP)까지 브라우저에서 직접 만져 보며 학습합니다. 그림·데이터·스크립트를 전부 한 파일에 담아(base64) 그대로 열기만 하면 동작합니다.
 
-- **바로 보기**: `https://adminmrobo.github.io/<저장소>/01_drug-slang-detection.html` — 업로드 후 `<저장소>`를 실제 저장소 이름으로 바꿔 주세요.
+- **바로 보기**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/` — 루트 주소는 `index.html`이 한국어 본편으로 이동시킵니다. 본편 주소: `…/01_drug-slang-detection.html`
 - **저자**: 안상선 ((주)M-Robo 대표)
 - **라이선스**: CC BY-NC 4.0 (아래 「라이선스」 절)
 
@@ -64,6 +64,7 @@ SNS에서 일상 언어로 위장한 불법 마약 거래를 AI가 어떻게 잡
 01_drug-slang-detection.uz.html     우즈베크어판
 01_drug-slang-detection.ru.html     러시아어판
 01_drug-slang-detection.vi.html     베트남어판
+index.html                          루트 주소 진입(한국어 본편으로 이동)
 og_01.png                           공유 미리보기(og:image)
 INDEX.md                            그림 은행 색인(키·판형·용처·검수 기록)
 README.md
@@ -78,6 +79,7 @@ README.md
 | `01_drug-slang-detection.uz.html` | 536 KB|
 | `01_drug-slang-detection.ru.html` | 548 KB|
 | `01_drug-slang-detection.vi.html` | 539 KB|
+| `index.html` | 0.4 KB |
 | `og_01.png` | 445 KB|
 
 ### 데이터와 이미지
@@ -106,7 +108,7 @@ README.md
 
 **SNS Slang and Anomaly Detection — How Does AI See Through Disguised Deals?** An interactive explainer based on the paper *A Study on the Algorithm for Detecting Suspected Drug Transactions in SNS Text* (Ahn Sang-Sun, *Mirae Sahoe* 16(1), 2025): from the preprocessing pipeline, the limits of one-hot encoding and word embeddings, and the four slang patterns, to the three-classifier showdown (logistic regression, most accurate at 99.89%) and XAI (LIME·SHAP). All images, data and scripts are embedded (base64) in one self-contained HTML file — just open it.
 
-- **View**: `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.en.html` — replace `<repository>` with the actual repository name after uploading.
+- **View**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.en.html`
 - **Author**: Ahn Sang-Sun (CEO, M-Robo Co., Ltd.) · **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
 - The Korean slang words inside the artwork (작대기, 크리스탈, 떨, 샤키…) are the research data itself and stay in Korean; each is glossed in parentheses at first appearance.
 - The English version is machine-translated and **not yet proofread by a native speaker**.
@@ -118,7 +120,7 @@ README.md
 
 **SNS 黑话与异常检测 — AI 如何识破伪装交易？** 基于论文《SNS 文本基础毒品可疑交易检测算法研究》(Ahn Sang-Sun，《未来社会》16(1)，2025) 的互动解说页：从预处理流水线、独热编码的局限与词向量、四大黑话模式，到三种分类模型对比（逻辑回归准确率最高，达 99.89%）与可解释 AI（LIME·SHAP）。全部图片、数据与脚本以 base64 内嵌于单一 HTML 文件，打开即可运行。
 
-- **直接查看**： `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.zh.html` — 上传后请将 `<repository>` 替换为实际仓库名。
+- **直接查看**： `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.zh.html`
 - **作者**： Ahn Sang-Sun（M-Robo 株式会社代表） · **许可证**： [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans)
 - 图中的韩国黑话词汇（작대기、크리스탈、떨、샤키 等）是研究数据，保留韩文，首次出现时以括号注明含义。
 - 中文版为机器翻译，**尚未经母语者校对**。
@@ -130,7 +132,7 @@ README.md
 
 **SNS隠語と異常検知 — AIは偽装取引をどう見破るのか？** 論文 *SNSテキストに基づく薬物疑い取引検出アルゴリズムの研究*(アン・サンソン、*未来社会* 16(1)、2025)に基づくインタラクティブ解説ページです。前処理パイプライン、one-hot符号化の限界と単語ベクトル、4大隠語パターンから、3分類モデルの対決(ロジスティック回帰が99.89%で最高精度)、XAI(LIME・SHAP)まで、ブラウザ上で直接操作しながら学べます。画像・データ・スクリプトをすべて1つのHTMLファイルに(base64で)内蔵しており、開くだけで動作します。
 
-- **直接見る**: `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.ja.html` — アップロード後、`<repository>`を実際のリポジトリ名に置き換えてください。
+- **直接見る**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.ja.html`
 - **著者**: アン・サンソン(株式会社M-Robo代表) · **ライセンス**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ja)
 - 画像内の韓国語スラング(작대기、크리스탈、떨、샤키 など)は研究データのため韓国語のままとし、初出時に括弧で意味を添えています。
 - 日本語版は機械翻訳で、**母語話者の校正はまだ行われていません**。
@@ -142,7 +144,7 @@ README.md
 
 **Ijtimoiy tarmoq jargoni va anomaliyani aniqlash — AI yashirin bitimlarni qanday fosh qiladi?** *SNS matni asosida giyohvandlik shubhali bitimlarni aniqlash algoritmi tadqiqoti* (Ahn Sang-Sun, *Mirae Sahoe* 16(1), 2025) maqolasiga asoslangan interaktiv tushuntirish sahifasi: oldindan qayta ishlash bosqichi, one-hot kodlashning cheklovlari va soʻz vektorlari, toʻrtta jargon naqshi, uch tasniflagich musobaqasi (eng aniq — logistik regressiya, 99,89%) va tushuntiriladigan AI (LIME·SHAP). Barcha rasmlar, maʼlumot va skriptlar bitta HTML faylga (base64) joylashtirilgan — faqat ochish yetarli.
 
-- **Toʻgʻridan-toʻgʻri koʻrish**: `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.uz.html` — yuklab boʻlgach, `<repository>` oʻrniga haqiqiy repo nomini yozing.
+- **Toʻgʻridan-toʻgʻri koʻrish**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.uz.html`
 - **Muallif**: Ahn Sang-Sun (M-Robo kompaniyasi rahbari) · **Litsenziya**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
 - Rasmlardagi koreys jargon soʻzlari (작대기, 크리스탈, 떨, 샤키…) tadqiqot maʼlumoti boʻlgani uchun koreyscha qoladi, birinchi uchrashda qavs ichida izohlanadi.
 - Oʻzbekcha nusxa mashina tarjimasi boʻlib, **hali ona tili mutaxassisi tomonidan tahrirlanmagan**.
@@ -154,7 +156,7 @@ README.md
 
 **Сленг в соцсетях и обнаружение аномалий — как ИИ распознаёт замаскированные сделки?** Интерактивный разбор по статье *Исследование алгоритма обнаружения подозрительных наркосделок в текстах SNS* (Ан Сансон, *Mirae Sahoe* 16(1), 2025): от конвейера предобработки, ограничений one-hot кодирования и векторных представлений слов и четырёх шаблонов сленга — до состязания трёх классификаторов (лучший — логистическая регрессия, точность 99,89%) и объяснимого ИИ (LIME·SHAP). Все изображения, данные и скрипты встроены (base64) в один HTML-файл — достаточно открыть его.
 
-- **Смотреть**: `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.ru.html` — после загрузки замените `<repository>` на имя репозитория.
+- **Смотреть**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.ru.html`
 - **Автор**: Ан Сансон (генеральный директор M-Robo Co., Ltd.) · **Лицензия**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ru)
 - Корейские слова-сленг на картинках (작대기, 크리스탈, 떨, 샤키…) — данные исследования, поэтому оставлены по-корейски с пояснением в скобках при первом появлении.
 - Русская версия переведена автоматически и **пока не вычитана носителем языка**.
@@ -166,7 +168,7 @@ README.md
 
 **Tiếng lóng trên mạng xã hội và phát hiện bất thường — AI nhìn thấu giao dịch ngụy trang như thế nào?** Trang giải thích tương tác dựa trên bài báo *Nghiên cứu thuật toán phát hiện giao dịch nghi ngờ ma túy dựa trên văn bản SNS* (Ahn Sang-Sun, *Mirae Sahoe* 16(1), 2025): từ quy trình tiền xử lý, giới hạn của one-hot và word embedding, 4 mẫu tiếng lóng, so sánh ba mô hình phân loại (hồi quy logistic 99.89% chính xác nhất) đến XAI (LIME·SHAP). Toàn bộ hình ảnh, dữ liệu và mã nhúng trong một tệp HTML duy nhất.
 
-- **Xem trực tiếp**: `https://adminmrobo.github.io/<repository>/01_drug-slang-detection.vi.html` — thay `<repository>` bằng tên repo thật sau khi tải lên.
+- **Xem trực tiếp**: `https://adminmrobo.github.io/my_article_03_drug-slang-detection/01_drug-slang-detection.vi.html`
 - **Tác giả**: Ahn Sang-Sun (Giám đốc điều hành, M-Robo Co., Ltd.) · **Giấy phép**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.vi)
 - Các từ tiếng lóng Hàn Quốc trong hình (작대기, 크리스탈, 떨, 샤키…) là dữ liệu nghiên cứu nên giữ nguyên tiếng Hàn, lần đầu xuất hiện sẽ có chú thích trong ngoặc.
 - Phần tiếng Việt là bản dịch tự động và **chưa qua hiệu đính bởi người bản xứ**.
