@@ -12,6 +12,7 @@
 | 스타일 | 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading |
 | 금지 구절 | no text / no letters / no numbers / no logos / no weapons / no cigarettes / no alcohol / no blood / no real brands |
 | 검수 | understand_images 판별(장면 6·표정 8 전수) — 최종 전량 PASS |
+| 표정 출처 | 표정 8종은 2026-10-28 공식 도트 스프라이트(adminmrobo/fruitfly-lab-expressions)로 교체 — E09_thinking·E10_confirming·E01_joy·E19_sparkle_eyes·E06_disgust·E21_waterfall_tears·E16_proud·E12_cheering |
 
 ## 키 목록
 
@@ -20,20 +21,20 @@
 | `bg_01` | F | 1983×793 | 1280×480 WebP | 32.7KB | 히어로 배경(hero-bg) | PASS |
 | `sc_01_hero` | E | 1536×1024 | 760×507 PNG | 75.8KB | 히어로 무대(hero-stage) | PASS |
 | `cut_01_think` | G | 1672×941 | 640×360 PNG | 44.8KB | 논문 모드 히어로 생각 컷(hero-think) | PASS |
-| `doc_think` | A | 1254×1254 | 128×128 PNG | 18.5KB | 히어로 대화창(박사) | PASS |
-| `doc_judge` | A | 1254×1254 | 128×128 PNG | 4.2KB | 대결 판정(박사) | PASS |
-| `asst_smile` | B | 1254×1254 | 180×220 PNG | 10.5KB | 본문 조수 대화창 | PASS |
-| `asst_spark` | B | 1254×1254 | 180×220 PNG | 10.2KB | 대결 결과(조수) | PASS |
-| `fly_point` | C | 1254×1254 | 180×180 PNG | 7.8KB | 본문 의심 말풍선 + 대결 전 카드 | PASS |
-| `fly_cry` | C | 1254×1254 | 180×180 PNG | 8.9KB | 아웃트로(초파리, 패배 인정) | PASS |
-| `robo_coin` | D | 1254×1254 | 180×200 PNG | 4.9KB | 본문 Money-Robo 대화창 + 대결 전 카드 | PASS |
-| `robo_happy` | D | 1254×1254 | 180×200 PNG | 5.3KB | 아웃트로(Money-Robo 승리) | PASS |
+| `doc_think` | A | 392×393 repo | 128×128 PNG | 4.8KB | 히어로 대화창(박사) | PASS |
+| `doc_judge` | A | 392×392 repo | 128×128 PNG | 5.0KB | 대결 판정(박사) | PASS |
+| `asst_smile` | B | 403×397 repo | 180×220 PNG | 16.6KB | 본문 조수 대화창 | PASS |
+| `asst_spark` | B | 401×396 repo | 180×220 PNG | 17.2KB | 대결 결과(조수) | PASS |
+| `fly_point` | C | 400×401 repo | 180×180 PNG | 11.5KB | 본문 의심 말풍선 + 대결 전 카드 | PASS |
+| `fly_cry` | C | 400×403 repo | 180×180 PNG | 12.2KB | 아웃트로(초파리, 패배 인정) | PASS |
+| `robo_coin` | D | 334×332 repo | 180×200 PNG | 5.7KB | 본문 Money-Robo 대화창 + 대결 전 카드 | PASS |
+| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(Money-Robo 승리) | PASS |
 | `cut_01_lime` | G | 1672×941 | 640×360 PNG | 46.8KB | LIME 섹션(lime-section) | PASS |
 | `sc_01_outro` | E | 1536×1024 | 760×507 PNG | 75.2KB | 아웃트로 장면(outro) | PASS |
 | `thumb_01` | I | bg_01 우측 크롭 | 400×267 WebP | 10.9KB | 목차 카드 썸네일(예비) | — |
 | `og_01` | K | 1731×909 | 1200×630 WebP(+PNG) | 45.8KB | 공유 미리보기(og:image) | PASS |
 
-빌드 합계(페이지 내장분 14종): **394KB — 400KB 예산 이내**. 후처리는 전부 NEAREST 리사이즈(픽셀아트 규칙), 표정 스프라이트는 투명 배경 + 여백 6px 판 캔버스 중앙 정렬.
+빌드 합계(페이지 내장분 14종): **356.3KB**. 후처리는 전부 NEAREST 리사이즈(픽셀아트 규칙), 표정 스프라이트는 투명 배경 + 여백 6px 판 캔버스 중앙 정렬.
 
 ## 페이지 배치 지도
 
@@ -54,9 +55,9 @@
 
 | 키 | 문제 | 조치 |
 |---|---|---|
-| `asst_smile` | 코트 안 검은 침식 구멍(flood-fill 2차 패스 결함) | 정리 원본 재축출 → rmbg 모델 배경 제거 |
-| `doc_judge` | 아치형 배지 프레임 동반 생성 | 명세서 대체 규칙(초록 화면 #00ff00)으로 재생성 후 크로마키 |
-| `robo_happy` | 왼쪽 미시선 + 그림자 초록 잔여 | 초록 화면 재생성 + 그림자 무채색 보정 |
+| `asst_smile` | B | 403×397 repo | 180×220 PNG | 16.6KB | 본문 조수 대화창 | PASS |
+| `doc_judge` | A | 392×392 repo | 128×128 PNG | 5.0KB | 대결 판정(박사) | PASS |
+| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(Money-Robo 승리) | PASS |
 
 원본 생성 URL(워터마크 없는 원본 포함)은 빌드 세션 로그 기준 아래와 같다. (24시간 후 만료될 수 있음)
 

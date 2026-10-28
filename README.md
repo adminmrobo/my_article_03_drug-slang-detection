@@ -17,13 +17,13 @@ SNS에서 일상 언어로 위장한 불법 마약 거래를 AI가 어떻게 잡
 
 | 언어 | 파일 이름 | 바로 보기 |
 |---|---|---|
-| 한국어 (원본) | `01_drug-slang-detection.html` | 535 KB|
-| English | `01_drug-slang-detection.en.html` | 534 KB|
-| 中文 (简体) | `01_drug-slang-detection.zh.html` | 533 KB|
-| 日本語 | `01_drug-slang-detection.ja.html` | 537 KB|
-| Oʻzbekcha | `01_drug-slang-detection.uz.html` | 536 KB|
-| Русский | `01_drug-slang-detection.ru.html` | 548 KB|
-| Tiếng Việt | `01_drug-slang-detection.vi.html` | 539 KB|
+| 한국어 (원본) | `01_drug-slang-detection.html` | 546 KB|
+| English | `01_drug-slang-detection.en.html` | 545 KB|
+| 中文 (简体) | `01_drug-slang-detection.zh.html` | 543 KB|
+| 日本語 | `01_drug-slang-detection.ja.html` | 548 KB|
+| Oʻzbekcha | `01_drug-slang-detection.uz.html` | 547 KB|
+| Русский | `01_drug-slang-detection.ru.html` | 558 KB|
+| Tiếng Việt | `01_drug-slang-detection.vi.html` | 550 KB|
 
 - 전환 방법: ① 최상단 메뉴의 🌐 선택 상자 ② 오른쪽 아래 🌐 배너. 고른 언어는 브라우저(`localStorage`)에 기억됩니다.
 - 한국어 페이지에서만 자동 전환합니다. 브라우저 언어가 지원 언어이고 그 번역 파일이 실제로 있을 때만 이동하며(이동 전 `HEAD` 확인), 없으면 한국어로 머뭅니다.
@@ -72,20 +72,20 @@ README.md
 
 | 파일 | 크기 |
 |---|---|
-| `01_drug-slang-detection.html` | 535 KB|
-| `01_drug-slang-detection.en.html` | 534 KB|
-| `01_drug-slang-detection.zh.html` | 533 KB|
-| `01_drug-slang-detection.ja.html` | 537 KB|
-| `01_drug-slang-detection.uz.html` | 536 KB|
-| `01_drug-slang-detection.ru.html` | 548 KB|
-| `01_drug-slang-detection.vi.html` | 539 KB|
+| `01_drug-slang-detection.html` | 546 KB|
+| `01_drug-slang-detection.en.html` | 545 KB|
+| `01_drug-slang-detection.zh.html` | 543 KB|
+| `01_drug-slang-detection.ja.html` | 548 KB|
+| `01_drug-slang-detection.uz.html` | 547 KB|
+| `01_drug-slang-detection.ru.html` | 558 KB|
+| `01_drug-slang-detection.vi.html` | 550 KB|
 | `index.html` | 0.4 KB |
 | `og_01.png` | 445 KB|
 
 ### 데이터와 이미지
 
 - 그림은 16비트 RPG풍 픽셀아트 15종(배경 1·장면 3·컷 2·표정 8·썸네일/OG 2)을 `data-img` 키로 관리하고 base64로 파일 안에 내장했습니다. 키별 용처는 `INDEX.md`를 참고하세요.
-- 캔버스 실습(파이프라인·은어 패턴·PCA·결정 경계·기여도·지식 그래프)은 페이지 안 JavaScript로 그립니다. 대화창의 캐릭터 얼굴은 생성 표정 이미지를 씁니다.
+- 캔버스 실습(파이프라인·은어 패턴·PCA·결정 경계·기여도·지식 그래프)은 페이지 안 JavaScript로 그립니다. 대화창의 캐릭터 얼굴은 공식 도트 표정 스프라이트([fruitfly-lab-expressions](https://github.com/adminmrobo/fruitfly-lab-expressions))를 씁니다.
 - 워드클라우드 2장은 논문 그림 6·7의 재현이고, 은어 예시(작대기, 크리스탈, 떨, 샤키 등)는 연구 대상 데이터라 번역하지 않습니다.
 
 ### 용어 표기
