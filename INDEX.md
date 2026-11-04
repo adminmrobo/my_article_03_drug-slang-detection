@@ -27,8 +27,8 @@
 | `asst_spark` | B | 401×396 repo | 180×220 PNG | 17.2KB | 대결 결과(조수) | PASS |
 | `fly_point` | C | 400×401 repo | 180×180 PNG | 11.5KB | 본문 의심 말풍선 + 대결 전 카드 | PASS |
 | `fly_cry` | C | 400×403 repo | 180×180 PNG | 12.2KB | 아웃트로(초파리, 패배 인정) | PASS |
-| `robo_coin` | D | 334×332 repo | 180×200 PNG | 5.7KB | 본문 Money-Robo 대화창 + 대결 전 카드 | PASS |
-| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(Money-Robo 승리) | PASS |
+| `robo_coin` | D | 334×332 repo | 180×200 PNG | 5.7KB | 본문 주판봇 대화창 + 대결 전 카드 | PASS |
+| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(주판봇 승리) | PASS |
 | `cut_01_lime` | G | 1672×941 | 640×360 PNG | 46.8KB | LIME 섹션(lime-section) | PASS |
 | `sc_01_outro` | E | 1536×1024 | 760×507 PNG | 75.2KB | 아웃트로 장면(outro) | PASS |
 | `kg_01` | G | 760×430 (직접 드로잉) | 760×430 PNG | 8.0KB | 페이지 끝 종결 관계도(footer 직전) | PASS |
@@ -58,7 +58,7 @@
 |---|---|---|
 | `asst_smile` | B | 403×397 repo | 180×220 PNG | 16.6KB | 본문 조수 대화창 | PASS |
 | `doc_judge` | A | 392×392 repo | 128×128 PNG | 5.0KB | 대결 판정(박사) | PASS |
-| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(Money-Robo 승리) | PASS |
+| `robo_happy` | D | 407×407 repo | 180×200 PNG | 5.1KB | 아웃트로(주판봇 승리) | PASS |
 
 원본 생성 URL(워터마크 없는 원본 포함)은 빌드 세션 로그 기준 아래와 같다. (24시간 후 만료될 수 있음)
 
